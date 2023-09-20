@@ -37,18 +37,18 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: "4a07be6cb69c84d677a6c3096fcf960cc3285a8330b4603e0d463d15d9bd934c"
+      sha256: f092b211a4319e98e5ff58223576de6c2803db36221657b46c82574721240687
       url: "https://pub.dev"
     source: hosted
-    version: "1.17.1"
+    version: "1.17.2"
   cupertino_icons:
     dependency: "direct main"
     description:
       name: cupertino_icons
-      sha256: "1989d917fbe8e6b39806207df5a3fdd3d816cbd090fac2ce26fb45e9a71476e5"
+      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.5"
+    version: "1.0.6"
   fake_async:
     dependency: transitive
     description:
@@ -61,34 +61,34 @@ packages:
     dependency: transitive
     description:
       name: ffi
-      sha256: a38574032c5f1dd06c4aee541789906c12ccaab8ba01446e800d9c5b79c4a978
+      sha256: "7bf0adc28a23d395f19f3f1eb21dd7cfd1dd9f8e1c50051c069122e6853bc878"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "2.1.0"
   file_picker:
     dependency: transitive
     description:
       name: file_picker
-      sha256: d090ae03df98b0247b82e5928f44d1b959867049d18d73635e2e0bc3f49542b9
+      sha256: be325344c1f3070354a1d84a231a1ba75ea85d413774ec4bdf444c023342e030
       url: "https://pub.dev"
     source: hosted
-    version: "5.2.5"
+    version: "5.5.0"
   flex_color_picker:
     dependency: transitive
     description:
       name: flex_color_picker
-      sha256: "40c1cbf8426a05c2b418ecf6c0fce386429fd7f9d238abbb2182985e8e6c5596"
+      sha256: f37476ab3e80dcaca94e428e159944d465dd16312fda9ff41e07e86f04bfa51c
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.2"
+    version: "3.3.0"
   flex_seed_scheme:
     dependency: transitive
     description:
       name: flex_seed_scheme
-      sha256: "7ded1dbf0cef4d9d27a194ad021f4755cd4a82a3c5f10e803dca84d9843fd639"
+      sha256: "29c12aba221eb8a368a119685371381f8035011d18de5ba277ad11d7dfb8657f"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "1.4.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -97,16 +97,25 @@ packages:
   flutter_inappwebview:
     dependency: transitive
     description:
-      name: flutter_inappwebview
-      sha256: dcbaeeac2e47d5c4649a456b009a2fe230f9c35e33c3124ca16f868b4c789a2e
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: fix-xcode-17
+      resolved-ref: "54ef7aa3bc637684e12eaf730d983a39fd0f345e"
+      url: "https://github.com/vixez/flutter_inappwebview.git"
+    source: git
     version: "5.7.2+3"
   flutter_keyboard_visibility:
     dependency: transitive
     description:
       name: flutter_keyboard_visibility
-      sha256: "5c5c2bf049e0f8b61c6bb6c317e3bf6142d238ab6711841f829e7432c568cc00"
+      sha256: "4983655c26ab5b959252ee204c2fffa4afeb4413cd030455194ec0caa3b8e7cb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.4.1"
+  flutter_keyboard_visibility_linux:
+    dependency: transitive
+    description:
+      name: flutter_keyboard_visibility_linux
+      sha256: "6fba7cd9bb033b6ddd8c2beb4c99ad02d728f1e6e6d9b9446667398b2ac39f08"
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
@@ -114,7 +123,8 @@ packages:
     dependency: transitive
     description:
       name: flutter_keyboard_visibility_macos
-      url: "https://pub.dartlang.org"
+      sha256: c5c49b16fff453dfdafdc16f26bdd8fb8d55812a1d50b0ce25fc8d9f2e53d086
+      url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
   flutter_keyboard_visibility_platform_interface:
@@ -137,17 +147,18 @@ packages:
     dependency: transitive
     description:
       name: flutter_keyboard_visibility_windows
-      url: "https://pub.dartlang.org"
+      sha256: fc4b0f0b6be9b93ae527f3d527fb56ee2d918cd88bbca438c478af7bcfd0ef73
+      url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
       name: flutter_plugin_android_lifecycle
-      sha256: "60fc7b78455b94e6de2333d2f95196d32cf5c22f4b0b0520a628804cb463503b"
+      sha256: f185ac890306b5779ecbd611f52502d8d4d63d27703ef73161ca0407e815f02c
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.7"
+    version: "2.0.16"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -173,30 +184,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
-  js:
-    dependency: transitive
-    description:
-      name: js
-      sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.6.7"
   matcher:
     dependency: transitive
     description:
       name: matcher
-      sha256: "6501fbd55da300384b768785b83e5ce66991266cec21af89ab9ae7f5ce1c4cbb"
+      sha256: "1803e76e6653768d64ed8ff2e1e67bea3ad4b923eb5c56a295c3e634bad5960e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.15"
+    version: "0.12.16"
   material_color_utilities:
     dependency: transitive
     description:
       name: material_color_utilities
-      sha256: d92141dc6fe1dad30722f9aa826c7fbc896d021d792f80678280601aff8cf724
+      sha256: "9528f2f296073ff54cb9fee677df673ace1218163c3bc7628093e7eed5203d41"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.5.0"
   meta:
     dependency: transitive
     description:
@@ -209,10 +212,10 @@ packages:
     dependency: transitive
     description:
       name: numberpicker
-      sha256: "73723bd13c940ebcd9e5f0ed56b4874588c1748a9a6a38254f97ad627715142e"
+      sha256: "4c129154944b0f6b133e693f8749c3f8bfb67c4d07ef9dcab48b595c22d1f156"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "2.1.2"
   path:
     dependency: transitive
     description:
@@ -233,18 +236,18 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-      sha256: dbf0f707c78beedc9200146ad3cb0ab4d5da13c246336987be6940f026500d3a
+      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.3"
+    version: "2.1.6"
   pointer_interceptor:
     dependency: transitive
     description:
       name: pointer_interceptor
-      sha256: eb58f5b0ed416067735c49b3187f9c5efe96ae85f628f3f77e7fb02db92a1805
+      sha256: "7626e034489820fd599380d2bb4d3f4a0a5e3529370b62bfce53ab736b91adb2"
       url: "https://pub.dev"
     source: hosted
-    version: "0.9.3+3"
+    version: "0.9.3+6"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -254,10 +257,10 @@ packages:
     dependency: transitive
     description:
       name: source_span
-      sha256: dd904f795d4b4f3b870833847c461801f6750a9fa8e61ea5ac53f9422b31f250
+      sha256: "53e943d4206a5e30df338fd4c6e7a077e02254531b138a15aec3bd143c1a8b3c"
       url: "https://pub.dev"
     source: hosted
-    version: "1.9.1"
+    version: "1.10.0"
   stack_trace:
     dependency: transitive
     description:
@@ -294,10 +297,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: eb6ac1540b26de412b3403a163d919ba86f6a973fe6cc50ae3541b80092fdcfb
+      sha256: "75760ffd7786fffdfb9597c35c5b27eaeec82be8edfb6d71d32651128ed7aab8"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.1"
+    version: "0.6.0"
   vector_math:
     dependency: transitive
     description:
@@ -310,18 +313,26 @@ packages:
     dependency: transitive
     description:
       name: visibility_detector
-      sha256: "15c54a459ec2c17b4705450483f3d5a2858e733aee893dcee9d75fd04814940d"
+      sha256: dd5cc11e13494f432d15939c3aa8ae76844c42b723398643ce9addb88a5ed420
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.3"
+    version: "0.4.0+2"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: dc8ccd225a2005c1be616fe02951e2e342092edf968cf0844220383757ef8f10
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.4-beta"
   win32:
     dependency: transitive
     description:
       name: win32
-      sha256: c9ebe7ee4ab0c2194e65d3a07d8c54c5d00bb001b76081c4a04cdb8448b59e46
+      sha256: c97defd418eef4ec88c0d1652cdce84b9f7b63dd7198e266d06ac1710d527067
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.3"
+    version: "5.0.8"
 sdks:
-  dart: ">=3.0.0-0 <4.0.0"
-  flutter: ">=3.3.0"
+  dart: ">=3.1.0 <4.0.0"
+  flutter: ">=3.13.0"
